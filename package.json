@@ -1,9 +1,9 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "ghq",
-  "title": "ghq",
-  "description": "",
-  "icon": "command-icon.png",
+  "title": "Ghq",
+  "description": "Extention for ghq - Manage remote repository clones",
+  "icon": "github.png",
   "author": "yamatsum",
   "categories": [
     "Developer Tools"
@@ -12,8 +12,8 @@
   "commands": [
     {
       "name": "index",
-      "title": "Show List and Detail",
-      "description": "Template for showing a static list and a detail view",
+      "title": "Ghq List",
+      "description": "List locally cloned repositories",
       "mode": "view"
     }
   ],
