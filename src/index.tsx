@@ -34,7 +34,7 @@ export default function Command() {
                     title={repository}
                     actions={
                       <ActionPanel title="#1 in raycast/extensions">
-                        <Action.OpenInBrowser url={`https://${repository}`} />
+                        <Action.OpenInBrowser url={`https://${remote}/${repository}`} />
                       </ActionPanel>
                     }
                   />
